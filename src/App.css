@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.home,
+.reports,
+.products,
+.team,
+.reports {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 3rem; */
+}
+.page-wrapper {
+	margin-left: 240px;
+	padding-top: 20px;
+  width: 80%;
+	position: relative;
+	transition: all 0.4s ease;
+}
+.page-wrapper > .content {
+	padding: 1.875rem 1.875rem 0;
+}
+.page-header {
+	margin-bottom: 1.875rem;
+}
+.text-muted{
+  color: #000 !important;
+}
+.page-header .breadcrumb {
+    background-color: transparent;
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 0;
+}
+.page-header .breadcrumb a {
+	color: #333;
+}
+.page-title {
+    color: #333;
+    margin-bottom: 5px;
+}
+.orderDiv{
+	border: 1px solid #f0f0f0;
+ margin-bottom: 1.875rem;
+ background-color: #00d0f1 ;
+}
+
+.stockDiv{
+	border: 1px solid #f0f0f0;
+ margin-bottom: 1.875rem;
+ background-color: #EB586F;
+}
+
+.transactionDiv{
+	border: 1px solid #f0f0f0;
+ margin-bottom: 1.875rem;
+ background-color: #ffbc34 ;
+}
+
+.salesDiv{
+	border: 1px solid #f0f0f0;
+ margin-bottom: 1.875rem;
+ background-color: #7bb13c ;
+}
+.navbar-top-nav{
+  color: #fff;
+  float: right;
+  margin-left: 34vw;
+}

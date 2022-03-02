@@ -1,0 +1,23 @@
+.menu-icons{
+    font-size: 20px;
+    color: #000;
+    margin-top: -10px;
+}
+.dashboard-logo-text{
+    text-decoration: none !important;
+    font-size: 1.2em;
+    color: #d1410c !important;
+    margin-top: -4px;
+  
+}
+.avatar{
+    width: 25px;
+    height: 25px;
+    /* margin-top: -1em; */
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+}
+.form-display{
+    margin-left: 10em;
+}
